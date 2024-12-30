@@ -19,7 +19,7 @@ days_to_forecast = st.sidebar.slider("Select Prediction Range (Days)", 5, 180, 3
 run_prediction = st.sidebar.button("Run Prediction")  # Button below the slider
 
 # Main Section
-st.header(f"Stock Data for {stock_symbol} - {name}")
+st.header(f"Stock Data for {stock_symbol}")
 
 try:
     # Fetch and display full historical stock data
