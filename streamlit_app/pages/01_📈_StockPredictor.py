@@ -41,7 +41,7 @@ try:
     fig.update_layout(
         title="Full Historical Stock Prices",
         xaxis_title="Date",
-        yaxis_title="Price",
+        yaxis_title="Price (USD)",
         showlegend=True
     )
     st.plotly_chart(fig, use_container_width=True)
@@ -68,7 +68,7 @@ try:
             prediction_fig.update_layout(
                 title="Stock Predictions",
                 xaxis_title="Date",
-                yaxis_title="Price",
+                yaxis_title="Price (USD)",
                 showlegend=True
             )
             st.plotly_chart(prediction_fig, use_container_width=True)
