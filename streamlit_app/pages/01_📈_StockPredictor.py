@@ -19,7 +19,7 @@ days_to_forecast = st.sidebar.slider("Select Prediction Range (Days)", 5, 180, 3
 run_prediction = st.sidebar.button("Run Prediction")  # Button below the slider
 
 # Main Section
-st.header(f"Stock Data for {stock_symbol}")
+st.header(f"Stock Data for {stock_symbol} - {name}")
 
 try:
     # Fetch and display full historical stock data
@@ -39,7 +39,6 @@ try:
         ]
     )
     fig.update_layout(
-        title="Full Historical Stock Prices",
         xaxis_title="Date",
         yaxis_title="Price (USD)",
         showlegend=True
@@ -66,7 +65,6 @@ try:
             prediction_fig.add_trace(go.Scatter(x=test.index, y=predictions, mode='lines', name='Test Predictions', line=dict(color='green')))
             prediction_fig.add_trace(go.Scatter(x=forecast.index, y=forecast, mode='lines', name='Forecast', line=dict(color='red')))
             prediction_fig.update_layout(
-                title="Stock Predictions",
                 xaxis_title="Date",
                 yaxis_title="Price (USD)",
                 showlegend=True
