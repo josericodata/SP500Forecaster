@@ -1,7 +1,7 @@
 import streamlit as st
 from datetime import datetime
 
-st.set_page_config(page_title="SP&500 Predictor", page_icon="📊")
+st.set_page_config(page_title="SP500 Forecaster", page_icon="📊")
 
 # Generate the current timestamp dynamically
 current_timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
