@@ -7,7 +7,7 @@ st.set_page_config(page_title="SP&500 Predictor", page_icon="📊")
 current_timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
 st.markdown(
-    """# 📊 **SP500Forecaster**
+    """# 📊 **S&P500Forecaster**
 ### **Predicting S&P 500 Stocks with ML**
 
 **SP500Forecaster is a machine learning-powered stock price prediction app specifically designed for S&P 500 companies. Built with Python and Streamlit, it leverages historical stock data to forecast future trends and empower investors with data-driven insights.**
@@ -70,7 +70,7 @@ cd streamlit_app
 
 6. Run the app:
 ```bash
-streamlit run 00_🛈_Infor.py
+streamlit run 00_ℹ️_Info.py
 ```
 
 The app will be live at ```http://localhost:8501```
