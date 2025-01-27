@@ -1,7 +1,5 @@
-import datetime as dt
 import yfinance as yf
 import pandas as pd
-import requests
 from statsmodels.tsa.ar_model import AutoReg
 from pathlib import Path  # For relative path usage
 import os  # To handle dynamic paths
@@ -11,7 +9,7 @@ def fetch_sp_tickers():
     """Fetch the S&P tickers from the CSV file in the assets folder."""
     try:
         # Use Path to resolve the relative path to the assets folder
-        csv_path = Path(__file__).resolve().parent.parent / "assets" / "sp500_tickers.csv"
+        csv_path = Path(__file__).resolve().parent.parent / "assets" / "data" / "sp500_tickers.csv"
         
         # Check if the file exists
         if not csv_path.is_file():

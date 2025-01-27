@@ -75,7 +75,12 @@ streamlit run 00_ℹ️_Info.py
 
 The app will be live at ```http://localhost:8501```
 
-## 🌟 **Future Enhancements**
+## 🎬 **Demo**
+  
+### Stock Predictor Page:
+![S&P500 Price Predictor](assets/gifs/sp500forecaster.gif)
+
+## 🔮 **Future Enhancements**
 
 Planned improvements and new features include:
 
