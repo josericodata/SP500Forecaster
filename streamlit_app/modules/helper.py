@@ -1,22 +1,15 @@
-import yfinance as yf
 import pandas as pd
+import yfinance as yf
+import streamlit as st
 from statsmodels.tsa.ar_model import AutoReg
-from pathlib import Path  # For relative path usage
-import os  # To handle dynamic paths
-from io import StringIO  # Import StringIO from io
 
+@st.cache_data
 def fetch_sp_tickers():
     """Fetch the S&P tickers from the CSV file in the assets folder."""
     try:
-        # Use Path to resolve the relative path to the assets folder
-        csv_path = Path(__file__).resolve().parent.parent / "assets" / "data" / "sp500_tickers.csv"
-        
-        # Check if the file exists
-        if not csv_path.is_file():
-            raise FileNotFoundError(f"File not found: {csv_path}. Ensure the file exists in the assets folder.")
-        
+      
         # Read the CSV file
-        df = pd.read_csv(csv_path)
+        df = pd.read_csv("assets/data/sp500_tickers.csv")
         
         # Convert to a dictionary
         sp_tickers = df.set_index("Symbol")["Security"].to_dict()
