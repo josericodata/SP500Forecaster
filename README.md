@@ -3,6 +3,8 @@
 
 **SP500Forecaster is a machine learning-powered stock price prediction app specifically designed for S&P 500 companies. Built with Python and Streamlit, it leverages historical stock data to forecast future trends and empower investors with data-driven insights.**
 
+---
+
 ## 🧬 **Project Structure**
 ```bash
 SP500Forecaster  
@@ -22,6 +24,8 @@ SP500Forecaster
 └── requirements.txt        
 ```
 
+---
+
 ## 🛠️ **How It's Built**
 
 SP500Forecaster is built with the following core frameworks and tools:
@@ -32,6 +36,8 @@ SP500Forecaster is built with the following core frameworks and tools:
 - **Plotly** - To generate dynamic and interactive financial charts
 - **Pandas** - To manipulate and process financial datasets
 
+---
+
 ## 🧑‍💻 **How It Works**
 
 1. The user selects a stock ticker from the S&P 500 list.
@@ -40,6 +46,8 @@ SP500Forecaster is built with the following core frameworks and tools:
 4. The model generates forecasts for the next 5–180 days.
 5. Results are displayed with interactive charts and tables.
 
+---
+
 ## ✨ **Key Features**
 
 - **Real-time S&P 500 stock data** - Access accurate and up-to-date information.
@@ -47,6 +55,8 @@ SP500Forecaster is built with the following core frameworks and tools:
 - **Custom prediction ranges** - Forecast stock prices for 5 to 180 days.
 - **Downloadable CSV** - Save prediction results for further analysis.
 - **User-friendly interface** - Accessible for novice and experienced users alike.
+
+---
 
 ## 🚀 **Getting Started**
 
@@ -90,10 +100,14 @@ streamlit run 00_ℹ️_Info.py
 
 The app will be live at ```http://localhost:8501```
 
+---
+
 ## 🎬 **Demo**
   
 ### Stock Predictor Page:
 ![S&P500 Price Predictor](https://raw.githubusercontent.com/josericodata/SP500Forecaster/main/assets/gifs/sp500forecaster.gif)
+
+---
 
 ## 🔮 **Future Enhancements**
 
@@ -104,6 +118,8 @@ Planned improvements and new features include:
 - **Sector-based insights** to understand trends within specific industries.
 - **User accounts and history tracking** for tailored predictions and personalized experiences.
 
+---
+
 ## 🔧 **Environment Setup**
 
 The SP500Forecaster app is built and tested using the following software environment:
@@ -113,6 +129,7 @@ The SP500Forecaster app is built and tested using the following software environ
 
 Ensure your environment matches or exceeds these versions for optimal performance.
 
+---
 
 ## 📋 **Important Notes**
 
@@ -121,7 +138,15 @@ Ensure your environment matches or exceeds these versions for optimal performanc
   1. Select a stock ticker from the dropdown menu.
   2. Choose the desired prediction range using the slider.
   3. Click the **Run Prediction** button to generate results.
-  
+
+---
+
+## 🤝 **Open Pull Requests**
+
+If you find any bug, feel free to contact me by opening a pull request on GitHub or via email at **maninastre@gmail.com**.
+
+---
+
 ## ⚠️ **Disclaimer**
 
 **This app is designed to demonstrate my skills in data modeling and analytics, showcasing how data-driven insights can assist in building my portfolio as a data analyst. It is not intended to provide financial advice or investment guidance. The predictions are for illustrative purposes only and should not be relied upon for making financial decisions.**
