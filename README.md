@@ -3,6 +3,25 @@
 
 **SP500Forecaster is a machine learning-powered stock price prediction app specifically designed for S&P 500 companies. Built with Python and Streamlit, it leverages historical stock data to forecast future trends and empower investors with data-driven insights.**
 
+## 🧬 **Project Structure**
+```bash
+SP500Forecaster  
+├── assets/         
+│   ├── data/
+│   │   └──  sp500_tickers.csv
+│   └── gifs/               
+│       └── sp500forecaster.gif 
+├── streamlit_app/
+│   ├── modules/
+│   │   └── helper.py
+│   ├── pages/               
+│   │   └── 01_📈_StockPredictor.py 
+│   └── 00_ℹ️_Info.py     
+├── LICENSE                 
+├── README.md               
+└── requirements.txt        
+```
+
 ## 🛠️ **How It's Built**
 
 SP500Forecaster is built with the following core frameworks and tools:
@@ -39,27 +58,32 @@ git clone https://github.com/user/SP500Forecaster.git
 ```
 **Hint:** Replace `user` with `josericodata` in the URL above. I am deliberately asking you to pause here so you can support my work. If you appreciate it, please consider giving the repository a star or forking it. Your support means a lot—thank you! 😊
 
-2. Create a virtual environment:
+2. Navigate to the repository directory:
+```bash
+cd SP500Forecaster
+```
+
+3. Create a virtual environment:
 ```bash
 python3 -m venv venvStreamlit
 ```
 
-3. Activate the virtual environment:
+4. Activate the virtual environment:
 ```bash
 source venvStreamlit/bin/activate
 ```
 
-4. Install requirements:
+5. Install requirements:
 ```bash
 pip install -r requirements.txt
 ```
 
-5. Navigate to the app directory:
+6. Navigate to the app directory:
 ```bash
 cd streamlit_app
 ```
 
-6. Run the app:
+7. Run the app:
 ```bash
 streamlit run 00_ℹ️_Info.py
 ```

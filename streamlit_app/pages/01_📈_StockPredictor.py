@@ -1,9 +1,9 @@
 import streamlit as st
-from helper import fetch_sp_tickers, fetch_stock_history, generate_stock_prediction
+from modules.helper import fetch_sp_tickers, fetch_stock_history, generate_stock_prediction
 import plotly.graph_objects as go
 
 # Page Configuration
-st.set_page_config(page_title="SP&500 Price Predictor", page_icon="📈")
+st.set_page_config(page_title="Streamlit S&P 500 Stock Predictor", page_icon="📈")
 
 # Sidebar
 st.sidebar.header("User Input Features")

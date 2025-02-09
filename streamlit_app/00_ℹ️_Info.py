@@ -1,7 +1,7 @@
 import streamlit as st
 from datetime import datetime
 
-st.set_page_config(page_title="SP500 Forecaster", page_icon="📊")
+st.set_page_config(page_title="Streamlit S&P 500 Stock Predictor", page_icon="📊")
 
 # Generate the current timestamp dynamically
 current_timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -48,27 +48,32 @@ git clone https://github.com/user/SP500Forecaster.git
 ```
 **Hint:** Replace `user` with `josericodata` in the URL above. I am deliberately asking you to pause here so you can support my work. If you appreciate it, please consider giving the repository a star or forking it. Your support means a lot—thank you! 😊
 
-2. Create a virtual environment:
+2. Navigate to the repository directory:
+```bash
+cd SP500Forecaster
+```
+
+3. Create a virtual environment:
 ```bash
 python3 -m venv venvStreamlit
 ```
 
-3. Activate the virtual environment:
+4. Activate the virtual environment:
 ```bash
 source venvStreamlit/bin/activate
 ```
 
-4. Install requirements:
+5. Install requirements:
 ```bash
 pip install -r requirements.txt
 ```
 
-5. Navigate to the app directory:
+6. Navigate to the app directory:
 ```bash
 cd streamlit_app
 ```
 
-6. Run the app:
+7. Run the app:
 ```bash
 streamlit run 00_ℹ️_Info.py
 ```
