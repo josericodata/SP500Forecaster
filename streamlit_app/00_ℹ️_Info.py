@@ -1,7 +1,7 @@
 import streamlit as st
 from datetime import datetime
 
-st.set_page_config(page_title="Streamlit S&P 500 Stock Predictor", page_icon="📊")
+st.set_page_config(page_title="S&P 500 Stock Predictor App", page_icon="📊")
 
 # Generate the current timestamp dynamically
 current_timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -79,11 +79,6 @@ streamlit run 00_ℹ️_Info.py
 ```
 
 The app will be live at ```http://localhost:8501```
-
-## 🎬 **Demo**
-  
-### Stock Predictor Page:
-![S&P500 Price Predictor](assets/gifs/sp500forecaster.gif)
 
 ## 🔮 **Future Enhancements**
 

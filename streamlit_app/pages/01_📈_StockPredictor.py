@@ -3,7 +3,7 @@ from modules.helper import fetch_sp_tickers, fetch_stock_history, generate_stock
 import plotly.graph_objects as go
 
 # Page Configuration
-st.set_page_config(page_title="Streamlit S&P 500 Stock Predictor", page_icon="📈")
+st.set_page_config(page_title="S&P 500 Stock Prediction App", page_icon="📈")
 
 # Sidebar
 st.sidebar.header("User Input Features")

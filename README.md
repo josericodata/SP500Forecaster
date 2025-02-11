@@ -108,6 +108,14 @@ The app will be live at ```http://localhost:8501```
 ![S&P500 Price Predictor](https://raw.githubusercontent.com/josericodata/SP500Forecaster/main/assets/gifs/sp500forecaster.gif)
 
 ---
+### ▶️ Watch the YouTube Tutorial
+
+
+[![Build a Stock Predictor App in 4 Minutes with Streamlit](https://img.youtube.com/vi/aRFjkMZeKhc/maxresdefault.jpg)](https://www.youtube.com/watch?v=aRFjkMZeKhc "Click to play")
+
+Click the image above or [here](https://www.youtube.com/watch?v=aRFjkMZeKhc) to watch the video on YouTube.
+
+---
 
 ## 🔮 **Future Enhancements**
 
